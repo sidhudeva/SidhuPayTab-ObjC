@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4639530E2492044B00D4C3BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4639530D2492044B00D4C3BA /* AppDelegate.m */; };
+		463953112492044B00D4C3BA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 463953102492044B00D4C3BA /* SceneDelegate.m */; };
+		463953142492044B00D4C3BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 463953132492044B00D4C3BA /* ViewController.m */; };
+		463953172492044B00D4C3BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 463953152492044B00D4C3BA /* Main.storyboard */; };
+		463953192492044F00D4C3BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463953182492044F00D4C3BA /* Assets.xcassets */; };
+		4639531C2492044F00D4C3BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4639531A2492044F00D4C3BA /* LaunchScreen.storyboard */; };
+		4639531F2492044F00D4C3BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4639531E2492044F00D4C3BA /* main.m */; };
+		463953262492046400D4C3BA /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 463953252492046400D4C3BA /* Resources.bundle */; };
+		463953282492046B00D4C3BA /* paytabs-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463953272492046B00D4C3BA /* paytabs-iOS.framework */; };
+		D4AE76F24339489423A115D7 /* Pods_SidhuPayTab_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41930060B5DEAA46A47D6FE4 /* Pods_SidhuPayTab_ObjC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41930060B5DEAA46A47D6FE4 /* Pods_SidhuPayTab_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SidhuPayTab_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		463953092492044B00D4C3BA /* SidhuPayTab-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SidhuPayTab-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4639530C2492044B00D4C3BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4639530D2492044B00D4C3BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4639530F2492044B00D4C3BA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		463953102492044B00D4C3BA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		463953122492044B00D4C3BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		463953132492044B00D4C3BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		463953162492044B00D4C3BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		463953182492044F00D4C3BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4639531B2492044F00D4C3BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4639531D2492044F00D4C3BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4639531E2492044F00D4C3BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		463953252492046400D4C3BA /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
+		463953272492046B00D4C3BA /* paytabs-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "paytabs-iOS.framework"; sourceTree = "<group>"; };
+		8AA52D0412F7A624CFBF16E4 /* Pods-SidhuPayTab-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidhuPayTab-ObjC.release.xcconfig"; path = "Target Support Files/Pods-SidhuPayTab-ObjC/Pods-SidhuPayTab-ObjC.release.xcconfig"; sourceTree = "<group>"; };
+		DF8E430D1C3F9715D73BFA10 /* Pods-SidhuPayTab-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SidhuPayTab-ObjC.debug.xcconfig"; path = "Target Support Files/Pods-SidhuPayTab-ObjC/Pods-SidhuPayTab-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		463953062492044B00D4C3BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463953282492046B00D4C3BA /* paytabs-iOS.framework in Frameworks */,
+				D4AE76F24339489423A115D7 /* Pods_SidhuPayTab_ObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2391890027E062958562F02A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF8E430D1C3F9715D73BFA10 /* Pods-SidhuPayTab-ObjC.debug.xcconfig */,
+				8AA52D0412F7A624CFBF16E4 /* Pods-SidhuPayTab-ObjC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		463953002492044B00D4C3BA = {
+			isa = PBXGroup;
+			children = (
+				4639530B2492044B00D4C3BA /* SidhuPayTab-ObjC */,
+				4639530A2492044B00D4C3BA /* Products */,
+				2391890027E062958562F02A /* Pods */,
+				836E4A26B9BCE55B0E510049 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4639530A2492044B00D4C3BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				463953092492044B00D4C3BA /* SidhuPayTab-ObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4639530B2492044B00D4C3BA /* SidhuPayTab-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				463953272492046B00D4C3BA /* paytabs-iOS.framework */,
+				463953252492046400D4C3BA /* Resources.bundle */,
+				4639530C2492044B00D4C3BA /* AppDelegate.h */,
+				4639530D2492044B00D4C3BA /* AppDelegate.m */,
+				4639530F2492044B00D4C3BA /* SceneDelegate.h */,
+				463953102492044B00D4C3BA /* SceneDelegate.m */,
+				463953122492044B00D4C3BA /* ViewController.h */,
+				463953132492044B00D4C3BA /* ViewController.m */,
+				463953152492044B00D4C3BA /* Main.storyboard */,
+				463953182492044F00D4C3BA /* Assets.xcassets */,
+				4639531A2492044F00D4C3BA /* LaunchScreen.storyboard */,
+				4639531D2492044F00D4C3BA /* Info.plist */,
+				4639531E2492044F00D4C3BA /* main.m */,
+			);
+			path = "SidhuPayTab-ObjC";
+			sourceTree = "<group>";
+		};
+		836E4A26B9BCE55B0E510049 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41930060B5DEAA46A47D6FE4 /* Pods_SidhuPayTab_ObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		463953082492044B00D4C3BA /* SidhuPayTab-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463953222492044F00D4C3BA /* Build configuration list for PBXNativeTarget "SidhuPayTab-ObjC" */;
+			buildPhases = (
+				F6986A49DB839BAD199933D3 /* [CP] Check Pods Manifest.lock */,
+				463953052492044B00D4C3BA /* Sources */,
+				463953062492044B00D4C3BA /* Frameworks */,
+				463953072492044B00D4C3BA /* Resources */,
+				61EB53BC2DB5EA431520F118 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SidhuPayTab-ObjC";
+			productName = "SidhuPayTab-ObjC";
+			productReference = 463953092492044B00D4C3BA /* SidhuPayTab-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		463953012492044B00D4C3BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = sidhudevarayan;
+				TargetAttributes = {
+					463953082492044B00D4C3BA = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 463953042492044B00D4C3BA /* Build configuration list for PBXProject "SidhuPayTab-ObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 463953002492044B00D4C3BA;
+			productRefGroup = 4639530A2492044B00D4C3BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				463953082492044B00D4C3BA /* SidhuPayTab-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		463953072492044B00D4C3BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4639531C2492044F00D4C3BA /* LaunchScreen.storyboard in Resources */,
+				463953192492044F00D4C3BA /* Assets.xcassets in Resources */,
+				463953172492044B00D4C3BA /* Main.storyboard in Resources */,
+				463953262492046400D4C3BA /* Resources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61EB53BC2DB5EA431520F118 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SidhuPayTab-ObjC/Pods-SidhuPayTab-ObjC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SidhuPayTab-ObjC/Pods-SidhuPayTab-ObjC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SidhuPayTab-ObjC/Pods-SidhuPayTab-ObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6986A49DB839BAD199933D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SidhuPayTab-ObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		463953052492044B00D4C3BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463953142492044B00D4C3BA /* ViewController.m in Sources */,
+				4639530E2492044B00D4C3BA /* AppDelegate.m in Sources */,
+				4639531F2492044F00D4C3BA /* main.m in Sources */,
+				463953112492044B00D4C3BA /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		463953152492044B00D4C3BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				463953162492044B00D4C3BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4639531A2492044F00D4C3BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4639531B2492044F00D4C3BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		463953202492044F00D4C3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		463953212492044F00D4C3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		463953232492044F00D4C3BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8E430D1C3F9715D73BFA10 /* Pods-SidhuPayTab-ObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SidhuPayTab-ObjC",
+				);
+				INFOPLIST_FILE = "SidhuPayTab-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"ActionSheetPicker_3_0\"",
+					"-framework",
+					"\"BIObjCHelpers\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"Lockbox\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Mantle\"",
+					"-framework",
+					"\"PINCache\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Reachability\"",
+					"-framework",
+					"\"SBJson\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sidhudevarayan.SidhuPayTab-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		463953242492044F00D4C3BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA52D0412F7A624CFBF16E4 /* Pods-SidhuPayTab-ObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SidhuPayTab-ObjC",
+				);
+				INFOPLIST_FILE = "SidhuPayTab-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"ActionSheetPicker_3_0\"",
+					"-framework",
+					"\"BIObjCHelpers\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"IQKeyboardManager\"",
+					"-framework",
+					"\"Lockbox\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"Mantle\"",
+					"-framework",
+					"\"PINCache\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Reachability\"",
+					"-framework",
+					"\"SBJson\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sidhudevarayan.SidhuPayTab-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		463953042492044B00D4C3BA /* Build configuration list for PBXProject "SidhuPayTab-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463953202492044F00D4C3BA /* Debug */,
+				463953212492044F00D4C3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463953222492044F00D4C3BA /* Build configuration list for PBXNativeTarget "SidhuPayTab-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463953232492044F00D4C3BA /* Debug */,
+				463953242492044F00D4C3BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 463953012492044B00D4C3BA /* Project object */;
+}
